@@ -50,7 +50,7 @@ function Header() {
        </div>
        </div  >
        {search && 
-        <div className='flex flex-col sm:min-w-[200px]  ml-10 text-xm md:text-lg   md:max-w-[500px md:mx-auto lg:max-w[600px] lg:mx-auto  '>
+        <div className='flex flex-col min-w-[200px]  ml-10 text-xm md:text-lg   md:max-w-[500px md:mx-auto lg:max-w[600px] lg:mx-auto  '>
           <DateRangePicker
             ranges={[selectionRange]}
             minDate={new Date()}

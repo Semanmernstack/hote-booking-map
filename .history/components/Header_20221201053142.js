@@ -42,7 +42,7 @@ function Header() {
         <h1 className="text-lg md:text-2xl ml-2">PemsBooking</h1>
        </div>
        <div className="flex items-center shadow-2xl p-2 rounded-full">
-        <input value={search} onChange={(e) => setSearch(e.target.value)} className='   outline-none border-none lg:w-full' type="text" placeholder='Book for a room' />
+        <input value={search} onChange={(e) => setSearch(e.target.value)} className='outline-none border-none lg:w-full' type="text" placeholder='Book for a room' />
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="hidden md:inline-flex  w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
         </svg>
@@ -50,7 +50,7 @@ function Header() {
        </div>
        </div  >
        {search && 
-        <div className='flex flex-col sm:min-w-[200px]  ml-10 text-xm md:text-lg   md:max-w-[500px md:mx-auto lg:max-w[600px] lg:mx-auto  '>
+        <div className='flex flex-col max-w-[250px] ml-20    md:max-w-[500px md:mx-auto lg:max-w[600px] lg:mx-auto  '>
           <DateRangePicker
             ranges={[selectionRange]}
             minDate={new Date()}
@@ -63,8 +63,8 @@ function Header() {
             <input placeholder='numb' className='text-blue flex-1 w-12 border-none outline-none' type="number" min={1} onChange={(e) => setGuest(e.target.value)} />
           </div>
           <div className="flex items-center  gap-24 mt-6 ml-4  ">
-            <button className='cursor-pointer p-1 rounded-full text-sm md:text-lg bg-blue-500' onClick={() => setSearch("")}>Cancel</button>
-            <button onClick={searching}  className='cursor-pointer p-1 rounded-full bg-slate-500 text sm lg:text-lg'>Search
+            <button className='cursor-pointer p-1 rounded-full text-lg bg-blue-500' onClick={() => setSearch("")}>Cancel</button>
+            <button onClick={searching}  className='cursor-pointer p-1 rounded-full bg-slate-500 text-lg'>Search
                 
             </button>
           </div>
