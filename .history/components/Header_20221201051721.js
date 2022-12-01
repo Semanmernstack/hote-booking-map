@@ -50,7 +50,7 @@ function Header() {
        </div>
        </div  >
        {search && 
-        <div className='flex flex-col max-w-[400px] mx-auto md:max-w-[500px] lg:max-w[600px] lg:mx-auto  '>
+        <div className='flex flex-col max-w-[200px] md:max-w-[400px] lg:max-w[600px] ml-4 mx-auto '>
           <DateRangePicker
             ranges={[selectionRange]}
             minDate={new Date()}
@@ -63,8 +63,8 @@ function Header() {
             <input placeholder='numb' className='text-blue flex-1 w-12 border-none outline-none' type="number" min={1} onChange={(e) => setGuest(e.target.value)} />
           </div>
           <div className="flex items-center  gap-24 mt-6 ml-4  ">
-            <button className='cursor-pointer p-1 rounded-full text-lg bg-blue-500' onClick={() => setSearch("")}>Cancel</button>
-            <button onClick={searching}  className='cursor-pointer p-1 rounded-full bg-slate-500 text-lg'>Search
+            <button className='cursor-pointer p-2 rounded-full text-lg bg-blue-500' onClick={() => setSearch("")}>Cancel</button>
+            <button onClick={searching}  className='cursor-pointer p-2 rounded-full bg-slate-500 text-lg'>Search
                 
             </button>
           </div>
