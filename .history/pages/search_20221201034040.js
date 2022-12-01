@@ -2,9 +2,8 @@ import { format } from 'date-fns'
 import { useRouter } from 'next/router'
 import React from 'react'
 import Header from '../components/Header'
-import Mapp from '../components/Mapp'
 import Searching from '../components/Searching'
-
+import Mapp from './Mapp'
 
 
 

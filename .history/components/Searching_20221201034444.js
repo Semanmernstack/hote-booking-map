@@ -1,5 +1,5 @@
 
-
+import Image from 'next/image'
 import React from 'react'
 
 function Searching({ id, title, about, img, price, star, location }) {
@@ -10,7 +10,7 @@ function Searching({ id, title, about, img, price, star, location }) {
         <h1 className="mb-2">{about}</h1>  
         </div>
         <div className="  ">
-            <img className='h-[400px] w-[400px] md:h-[600px] md:w-[600px] rounded-md object-cover' src={img} alt="pic" />
+            <Image className='h-[400px] w-[400px] md:h-[600px] md:w-[600px] rounded-md object-cover' src={img} alt="pic" />
         </div>
         <div>
             <h1 className="font-bold mt-2 text-cyan-400">{price} </h1>

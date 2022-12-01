@@ -17,7 +17,7 @@ function Hotel() {
               showStatus={false}
               showIndicators={false}
               showThumbs={false}
-              interval={3000} 
+              interval={3000}
           >
               <div>
               

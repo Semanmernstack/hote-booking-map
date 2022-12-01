@@ -17,20 +17,20 @@ function Hotel() {
               showStatus={false}
               showIndicators={false}
               showThumbs={false}
-              interval={3000} 
+              interval={3000}
           >
               <div>
               
-                  <Image width={500} height={500}  loading="lazy" src="https://cdn.pixabay.com/photo/2015/05/01/11/29/gang-748312__340.jpg" alt="" />
+                  <Image loading="lazy" src="https://cdn.pixabay.com/photo/2015/05/01/11/29/gang-748312__340.jpg" alt="" />
               </div>
               <div>
-                  <Image width={500} height={500} loading="lazy" src="https://cdn.pixabay.com/photo/2017/03/09/20/56/zanzibar-2130811__340.jpg" alt="" />
+                  <Image loading="lazy" src="https://cdn.pixabay.com/photo/2017/03/09/20/56/zanzibar-2130811__340.jpg" alt="" />
               </div>
               <div>
-                  <Image width={500} height={500} loading="lazy"  src="https://cdn.pixabay.com/photo/2015/11/02/06/46/hotel-1018039__340.jpg" alt="" />
+                  <Image loading="lazy"  src="https://cdn.pixabay.com/photo/2015/11/02/06/46/hotel-1018039__340.jpg" alt="" />
               </div>
               <div>
-                  <Image width={500} height={500}  loading="lazy" src="https://cdn.pixabay.com/photo/2015/09/18/01/02/pool-944908__340.jpg" alt="" />
+                  <Image  loading="lazy" src="https://cdn.pixabay.com/photo/2015/09/18/01/02/pool-944908__340.jpg" alt="" />
               </div>
   
           </Carousel>
